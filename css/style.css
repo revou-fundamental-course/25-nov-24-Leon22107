@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 20px;
+}
+
+#kalkulator {
+  float: left;
+}
+
+.forum label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#forum {
+  margin-bottom: 20px;
+}
+
+#hasil {
+  margin-top: 20px;
+}
+
+input,
+button {
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#reset {
+  background-color: #fff;
+  color: #000;
+  border: #000 1px solid;
+  cursor: pointer;
+}
+
+#download {
+  display: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  text-align: center;
+}
